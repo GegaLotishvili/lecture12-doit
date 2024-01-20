@@ -1,0 +1,121 @@
+.s-1 {
+    margin: 50px 0;
+}
+.container {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myform {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-text {
+    max-width: 756px;
+    width: 100%;
+    height: 300px;
+}
+.left-text textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 23px 21px;
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background-color: #f8f8f8;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+::placeholder {
+    color: #99999a;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right-text {
+    width: 370px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 370px;
+    height: 60px;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background: #f8f8f8;
+    padding: 21px 19px;
+}
+
+input[type="submit"] {
+    background-color: #5968f4;
+    color: #fbfbff;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* section 2 */
+
+.myflex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #5968f4;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    color: #4e4d54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #99999a;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
